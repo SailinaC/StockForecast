@@ -50,8 +50,18 @@ The app supports forecasting for popular stocks and cryptocurrencies, including:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Screenshot
+## Screenshots
 
-Here is a screenshot of the StockForecast in action:
+Here are some screenshots of the StockForecast in action:
 
-![App Screenshot](images/screenshot.png)
+![Screenshot 2024-10-09 072250](https://github.com/user-attachments/assets/effb7daa-3e97-4cf4-bda0-5fdc731429ad)
+
+![Screenshot 2024-10-09 072321](https://github.com/user-attachments/assets/fb2aa3f9-106c-47c0-a918-e69458b973bf)
+
+![Screenshot 2024-10-09 072353](https://github.com/user-attachments/assets/190d713d-e6fd-425a-87b6-d3f82d253729)
+
+![Screenshot 2024-10-09 072408](https://github.com/user-attachments/assets/1814947b-6b37-475a-bb64-c55286998e61)
+
+![Screenshot 2024-10-09 072428](https://github.com/user-attachments/assets/06c1b4e6-77db-4418-b7ed-23e23af6274c)
+
+![Screenshot 2024-10-09 072452](https://github.com/user-attachments/assets/d5866012-ef9c-4c1d-bcff-47be5d67db0d)
