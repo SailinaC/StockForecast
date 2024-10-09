@@ -18,3 +18,40 @@ To run the app locally, follow these steps:
    ```bash
    git clone https://github.com/your_username/StockForecast.git
    cd StockForecast
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Start the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Available Stocks
+
+The app supports forecasting for popular stocks and cryptocurrencies, including:
+
+- Google (GOOG)
+- Apple (AAPL)
+- Microsoft (MSFT)
+- GameStop (GME)
+- Tesla (TSLA)
+- Amazon (AMZN)
+- Meta (META)
+- Netflix (NFLX)
+- Bitcoin (BTC-USD)
+- Ethereum (ETH-USD)
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Screenshot
+
+Here is a screenshot of the StockForecast in action:
+
+![App Screenshot](images/screenshot.png)
