@@ -2,6 +2,8 @@
 
 **StockForecast** is an interactive web application built with Streamlit that empowers users to predict stock prices using historical data. Leveraging the powerful Prophet forecasting model, this app enables users to visualize stock trends and make informed investment decisions.
 
+[Click here to try the app!](https://stockforecast-dcob83rdympg7ctqb8ytxh.streamlit.app/)
+
 ## Features
 
 - **Stock and Cryptocurrency Selection**: Choose from a variety of stocks and cryptocurrencies to analyze.
@@ -9,26 +11,6 @@
 - **Forecasting**: Generate future price predictions for up to 5 years, complete with upper and lower confidence intervals.
 - **Moving Averages**: Calculate and visualize moving averages to identify trends and potential entry/exit points.
 - **User-Friendly Interface**: Simple and intuitive design for a seamless user experience.
-
-## Installation
-
-To run the app locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/StockForecast.git
-   cd StockForecast
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Start the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
 
 ## Available Stocks
 
@@ -45,7 +27,6 @@ The app supports forecasting for popular stocks and cryptocurrencies, including:
 - Bitcoin (BTC-USD)
 - Ethereum (ETH-USD)
 
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -53,6 +34,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Screenshots
 
 Here are some screenshots of the StockForecast in action:
+
 
 ![Screenshot 2024-10-09 072250](https://github.com/user-attachments/assets/effb7daa-3e97-4cf4-bda0-5fdc731429ad)
 
