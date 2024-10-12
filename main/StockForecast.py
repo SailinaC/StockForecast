@@ -143,6 +143,45 @@ if chosen_stock:
     components_chart = model.plot_components(forecast_result)
     st.write(components_chart)
 
+# Moving Averages Feature
+    def calculate_moving_average(data, window_size):
+        return data['Close'].rolling(window=window_size).mean()
+
+    st.subheader(f"📋 Moving Averages for {chosen_stock}")
+    window_size = st.slider("Select Moving Average Window (days)", 10, 100, 50)
+    moving_avg = calculate_moving_average(stock_data, window_size)
+    stock_data['Moving Average'] = moving_avg
+
+# Plot Moving Averages with blue and red colors
+    fig_ma = go.Figure()
+    fig_ma.add_trace(go.Scatter(
+        x=stock_data['Date'],
+        y=stock_data['Close'],
+        mode='lines',
+        name='Closing Price',
+        line=dict(color='red', width=2)
+    ))
+    fig_ma.add_trace(go.Scatter(
+        x=stock_data['Date'],
+        y=stock_data['Moving Average'],
+        mode='lines',
+        name=f'{window_size}-Day Moving Average',
+        line=dict(color='blue', width=2)
+    ))
+
+    fig_ma.update_layout(
+        title=f'{chosen_stock} Moving Average',
+        xaxis_title='Date',
+        yaxis_title='Price (USD)',
+        xaxis_rangeslider_visible=True,
+        plot_bgcolor='rgba(0, 0, 0, 0)',
+        paper_bgcolor='rgba(0, 0, 0, 0)',
+        font=dict(color='white')
+    )
+
+    st.plotly_chart(fig_ma)
+
+
 # sidebar additional info
 with st.sidebar:
     st.markdown('<div class="sidebar-space"></div>', unsafe_allow_html=True)  # Adding space
