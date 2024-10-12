@@ -71,9 +71,7 @@ st.sidebar.markdown("<br><br><br><br><br><br>", unsafe_allow_html=True)
 # Sidebar Footer Information - Now positioned at the very bottom
 st.sidebar.markdown("##### About StockForecast")
 st.sidebar.write("""
-This app uses Prophet to forecast stock prices based on historical data from Yahoo Finance. Predict the future of stocks and major cryptocurrencies!
-
-                 """)
+This app uses Prophet to forecast stock prices based on historical data from Yahoo Finance. Predict the future of stocks and major cryptocurrencies!""")
 st.sidebar.write("Created by **SailinaC**")
 
 # Data Loading Function
