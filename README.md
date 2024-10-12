@@ -6,26 +6,25 @@
 
 ## Features
 
-- **Stock and Cryptocurrency Selection**: Choose from a variety of stocks and cryptocurrencies to analyze.
-- **Price Visualization**: View historical price data with interactive charts, including opening and closing prices.
+- **Stock Selection**: Choose from a wide range of popular stocks for forecasting, including tech giants, consumer goods, and financial institutions.
+- **Price Visualization**: View historical price data with interactive charts that display opening and closing prices.
 - **Forecasting**: Generate future price predictions for up to 5 years, complete with upper and lower confidence intervals.
 - **Moving Averages**: Calculate and visualize moving averages to identify trends and potential entry/exit points.
 - **User-Friendly Interface**: Simple and intuitive design for a seamless user experience.
+- **Forecast Components**: Visualize seasonal and trend components of the forecast for deeper insights.
 
 ## Available Stocks
 
-The app supports forecasting for popular stocks and cryptocurrencies, including:
+The app supports forecasting for a variety of stocks, including:
 
 - Google (GOOG)
 - Apple (AAPL)
 - Microsoft (MSFT)
-- GameStop (GME)
 - Tesla (TSLA)
 - Amazon (AMZN)
 - Meta (META)
 - Netflix (NFLX)
-- Bitcoin (BTC-USD)
-- Ethereum (ETH-USD)
+- And many more, with a total of over 200 stocks available for selection!
 
 ## License
 
@@ -35,15 +34,16 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Here are some screenshots of the StockForecast in action:
 
+![Screenshot 2024-10-12 101322](https://github.com/user-attachments/assets/beca83ad-d592-481c-832e-129d0d6a590b)
 
-![Screenshot 2024-10-09 072250](https://github.com/user-attachments/assets/effb7daa-3e97-4cf4-bda0-5fdc731429ad)
+![Screenshot 2024-10-12 101631](https://github.com/user-attachments/assets/6e633603-5e95-4220-aede-aaeea247d717)
 
-![Screenshot 2024-10-09 072321](https://github.com/user-attachments/assets/fb2aa3f9-106c-47c0-a918-e69458b973bf)
+![Screenshot 2024-10-12 101654](https://github.com/user-attachments/assets/2b9bb36f-af19-4d5f-9ee7-04a7797965c2)
 
-![Screenshot 2024-10-09 072353](https://github.com/user-attachments/assets/190d713d-e6fd-425a-87b6-d3f82d253729)
+![Screenshot 2024-10-12 101721](https://github.com/user-attachments/assets/a001318e-6dcc-4807-a980-284d3b7e0b5c)
 
-![Screenshot 2024-10-09 072408](https://github.com/user-attachments/assets/1814947b-6b37-475a-bb64-c55286998e61)
+![Screenshot 2024-10-12 101737](https://github.com/user-attachments/assets/91e2c5f4-ecb9-4a9e-91cc-39a81fd04fce)
 
-![Screenshot 2024-10-09 072428](https://github.com/user-attachments/assets/06c1b4e6-77db-4418-b7ed-23e23af6274c)
+![Screenshot 2024-10-12 101808](https://github.com/user-attachments/assets/e7131ee7-1a52-488f-8948-e57d33b35768)
 
-![Screenshot 2024-10-09 072452](https://github.com/user-attachments/assets/d5866012-ef9c-4c1d-bcff-47be5d67db0d)
+
