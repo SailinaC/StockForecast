@@ -2,7 +2,7 @@
 
 **StockForecast** is an interactive web application built with Streamlit that empowers users to predict stock prices using historical data. Leveraging the powerful Prophet forecasting model, this app enables users to visualize stock trends and make informed investment decisions.
 
-[Click here to try the app!](https://stockforecast-dcob83rdympg7ctqb8ytxh.streamlit.app/)
+<a href="https://stockforecast-dcob83rdympg7ctqb8ytxh.streamlit.app/" target="_blank">Click here to try the app!</a>
 
 ## Features
 
@@ -45,5 +45,3 @@ Here are some screenshots of the StockForecast in action:
 ![Screenshot 2024-10-12 101737](https://github.com/user-attachments/assets/91e2c5f4-ecb9-4a9e-91cc-39a81fd04fce)
 
 ![Screenshot 2024-10-12 101808](https://github.com/user-attachments/assets/e7131ee7-1a52-488f-8948-e57d33b35768)
-
-
