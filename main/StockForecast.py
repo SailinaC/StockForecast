@@ -152,7 +152,7 @@ if chosen_stock:
     moving_avg = calculate_moving_average(stock_data, window_size)
     stock_data['Moving Average'] = moving_avg
 
-# Plot Moving Averages with blue and red colors
+# Plot Moving Averages 
     fig_ma = go.Figure()
     fig_ma.add_trace(go.Scatter(
         x=stock_data['Date'],
