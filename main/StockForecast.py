@@ -99,4 +99,39 @@ if chosen_stock:
     forecast_result = model.predict(future_dates)
 
     st.subheader(f'🔮 Forecasted Data for {forecast_years} year(s)')
-    st.write(forecast_result[['ds', '
+    st.write(forecast_result[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail())
+
+    fig_forecast = plot_plotly(model, forecast_result)
+    fig_forecast.update_layout(
+        title=f'{chosen_stock} Price Forecast',
+        plot_bgcolor='rgba(0, 0, 0, 0)',
+        paper_bgcolor='rgba(0, 0, 0, 0)',
+        font=dict(color='white')
+    )
+    st.plotly_chart(fig_forecast)
+
+    # Moving Average
+    window_size = st.sidebar.selectbox('Select Moving Average Window Size:', [5, 10, 20, 50, 100, 200])
+
+    stock_data['Moving Average'] = stock_data['Close'].rolling(window=window_size).mean()
+
+    fig_ma = go.Figure()
+    fig_ma.add_trace(go.Scatter(
+        x=stock_data['Date'],
+        y=stock_data['Moving Average'],
+        mode='lines',
+        name=f'{window_size}-Day Moving Average',
+        line=dict(color='blue', width=2)
+    ))
+
+    fig_ma.update_layout(
+        title=f'{chosen_stock} Moving Average',
+        xaxis_title='Date',
+        yaxis_title='Price (USD)',
+        xaxis_rangeslider_visible=True,
+        plot_bgcolor='rgba(0, 0, 0, 0)',
+        paper_bgcolor='rgba(0, 0, 0, 0)',
+        font=dict(color='white')
+    )
+
+    st.plotly_chart(fig_ma)
