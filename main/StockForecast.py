@@ -74,7 +74,7 @@ forecast_period = forecast_years * 365  # Calculate total forecast period in day
 
 # Main Title and Subtitle
 st.markdown('<h1 style="text-align: center;">📊 StockForecast </h1>', unsafe_allow_html=True)
-st.markdown('<h3 style="text-align: center;">Stock Prediction & Analysis Application(s)</h3>', unsafe_allow_html=True)
+st.markdown('<h3 style="text-align: center;"> Stock Prediction & Analysis Application 📈 </h3>', unsafe_allow_html=True)
 
 # Function to fetch historical stock data
 @st.cache_data
